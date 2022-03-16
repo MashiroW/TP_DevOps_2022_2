@@ -1,4 +1,4 @@
-
+---
 name: Super-Linter
 
 on: push
@@ -38,4 +38,3 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/tp_devops_2022:LINTEDPUSH
- 
